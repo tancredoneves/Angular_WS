@@ -14,7 +14,7 @@ namespace WebAPP.Models
             this.db = db;
         }
 
-        public IQueryable<Order> GettAllOrders()
+        public IQueryable<Order> GetAllOrders()
         {
             return db.Orders;
         }

@@ -6,6 +6,6 @@ namespace WebAPP.Models
     {
         IQueryable<Order> GetAllOrdersWithDetails();
         Order GetOrder(int id);
-        IQueryable<Order> GettAllOrders();
+        IQueryable<Order> GetAllOrders();
     }
 }
